@@ -13,7 +13,7 @@
           console.log("Thành Công: " + this.responseText);
         }
       };
-      xhttp.open("GET", "http://localhost:8000/regacc?delay=" + delay, true);
+      xhttp.open("GET", "/api/regacc?delay=" + delay, true);
       xhttp.send();
     }
   </script>
